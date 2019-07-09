@@ -7,7 +7,7 @@ def display_rainbow(colors)
   letters = ["R: ", "O: ", "Y: ", "G: ", "B: ", "I: ", "V: "]
   
   7.times do |i|
-    print letter[i] + colors[i] + ","
+    print letters[i] + colors[i] + ","
   end
   
 end
