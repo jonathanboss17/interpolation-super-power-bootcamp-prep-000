@@ -9,7 +9,7 @@ def display_rainbow(colors)
   7.times do |i|
     
     if(i == colors.length-1)
-      print letter[i] + colors[i]
+      print letters[i] + colors[i]
     end
     
     print letters[i] + colors[i] + ", "
