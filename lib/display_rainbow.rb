@@ -10,9 +10,9 @@ def display_rainbow(colors)
     
     if(i == colors.length-1)
       print letters[i] + colors[i]
+    else
+      print letters[i] + colors[i] + ", "
     end
-    
-    print letters[i] + colors[i] + ", "
 
   end
   
